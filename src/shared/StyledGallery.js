@@ -22,6 +22,10 @@ export const StyledImage = styled.div`
   justify-content: center;
   margin: 2vw auto;
 
+  :hover {
+    cursor: pointer;
+  }
+
   img {
     width: 40vw;
     height: auto;
